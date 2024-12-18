@@ -1,4 +1,6 @@
-.idea
-run.sh
 *.code-workspace
+.DS_Store
+._*
+.idea
 /.vscode
+run.sh

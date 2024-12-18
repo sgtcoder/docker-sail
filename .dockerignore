@@ -1,6 +1,8 @@
+.DS_Store
+._*
 .git
-.gitignore
-.github
 .gitattributes
-READMETEMPLATE.md
+.github
+.gitignore
 README.md
+READMETEMPLATE.md

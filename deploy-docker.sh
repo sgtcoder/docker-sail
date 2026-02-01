@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-SCRIPTPATH="$(dirname "$0")"
-
+SCRIPTPATH="$(cd "$(dirname "$0")" && pwd)"
 REGISTRY="sgtcoder"
 PROJECT_NAME="sail"
 PROJECT_TAGS=("8.3" "8.4")
@@ -19,4 +18,4 @@ for PROJECT_TAG in "${PROJECT_TAGS[@]}"; do
     fi
 done
 
-#docker push --all-tags $REGISTRY/$PROJECT_NAME
+cli_log "SUCCESS" "Completed successfully" "border"
